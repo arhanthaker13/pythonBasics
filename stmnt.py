@@ -11,3 +11,6 @@ elif 0 < age < 18:
 else:
     print("You are not born yet")
     
+# logical operators
+
+# && == and || == or ! == not
