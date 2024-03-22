@@ -1,6 +1,6 @@
 age = 21
 age -= 1
-'''
+
 print("Your age is: " + str(age))
 
 height = 168.5
@@ -21,10 +21,8 @@ print(f"{name} {age} {attractive}")
 
 a = b = c = d = (20,)
 print(a + b + c + d)
-'''
 
 # string methods
-"""
 name = "arhan Thaker"
 
 print(len(name))
@@ -40,7 +38,6 @@ print(name.count("A"))
 print(name.replace("a", "x"))
 print(name*3)
 print()
-"""
 
 # type casting
 x = 1
