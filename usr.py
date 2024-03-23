@@ -1,14 +1,10 @@
-"""
 name = input("What is your name: ")
 age = int(input("What is your age: "))
 
 print(f"Hello {name}")
 print(f"You are {age} years old")
 
-"""
-
 # indexing
-
 name = "Arhan Thaker"
 
 first_name = name[:5]
@@ -22,7 +18,6 @@ print(funky_name)
 print(reversed_name)
 
 # string slicing
-
 website1 = "http://google.com"
 website2 = "http://github.com"
 
