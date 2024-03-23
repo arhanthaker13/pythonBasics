@@ -1,10 +1,7 @@
-rows = int(input("How many rows: "))
-coloumns = int(input("How many coloumns: "))
-symbol = input("Enter symbol you weant to print: ")
-
-for i in range(rows):
+for i in range(1, 21):
     
-    for j in range(coloumns):
-        print(symbol, end="")
-    print()
+    if i == 13:
+        pass
+    else:
+        print(i)
         
