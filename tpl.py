@@ -1,4 +1,4 @@
-
+'''
 student =("Bro", 21, "Male")
 
 print(student.count("Bro"))
@@ -9,4 +9,17 @@ for x in student:
 
 if "Bro" in student:
     print("TRUE")
+'''
+
+#set
+
+utensils = {"fork", "spoon", "knife"}
+dishes = {"bowl", "plate", "cup"}
+
+utensils.update(dishes)
+
+for x in utensils:
+    print(x)
     
+# set.add(x), set.remove(x), set.clear()
+ 
