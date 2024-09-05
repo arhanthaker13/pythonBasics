@@ -10,7 +10,7 @@ def main():
         user_letter = (input("Enter a letter between A and capital Z: "))
         print()
 
-        # validate user input (string lenght = 1 and Capital Letter)
+        # validate user input: string length should = 1 and be a Capital Letter
         if(len(user_letter) > 1 or 'A' > user_letter or user_letter > 'Z'):
             print("Invalid Input! Try again.")
         else:
